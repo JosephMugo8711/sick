@@ -6,6 +6,8 @@ import HeaderMain from "@/components/HeaderMain";
 import Navbar from "@/components/Navbar";
 import MobNavbar from "@/components/MobNavbar";
 const inter = Inter({ subsets: ["latin"] });
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const metadata = {
   title: "Create Next App",

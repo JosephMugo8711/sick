@@ -9,7 +9,7 @@ const Navbar = () => {
                 <div className='relative cursor-pointer navbar_link'>CATEGORIES</div>
                 <div className='relative cursor-pointer navbar_link'>{`MEN'S`}</div>
                 <div className='relative cursor-pointer navbar_link'>{`WOMEN'S`}</div>
-                <div className='relative cursor-pointer navbar_link'>JEWELRY</div>
+                <div className='relative cursor-pointer navbar_link'>JEWELERY</div>
                 <div className='relative cursor-pointer navbar_link'>PERFUME</div>
                 <div className='relative cursor-pointer navbar_link'>BLOG</div>
                 <div className='relative cursor-pointer navbar_link'>HOT OFFERS</div>
