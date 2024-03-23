@@ -3,6 +3,8 @@ import "./globals.css";
 import HeaderTop from "@/components/HeaderTop";
 import Head from "next/head";
 import HeaderMain from "@/components/HeaderMain";
+import Navbar from "@/components/Navbar";
+import MobNavbar from "@/components/MobNavbar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -16,6 +18,8 @@ export default function RootLayout({ children }) {
       <body className={inter.className}>
         <HeaderTop />
         <HeaderMain />
+        <Navbar/>
+        <MobNavbar />
         {children}
         </body>
     </html>
