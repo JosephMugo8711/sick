@@ -26,13 +26,17 @@ const HeaderTop = () => {
                     THIS WEEK ORDER OVER - $55
                 </div>
                 <div className='flex gap-4'>
-                    <select name='currency' id="currency">
+                    <select name='currency' 
+                            id="currency"
+                            className='text-gray-500 text-[12px] w-[70px]'>
                         <option value="USD $">USD $</option>
                         <option value="EUR €">EUR €</option>
                         <option value="KES K">KES K</option>
                     </select>
 
-                    <select name='language' id='language'>
+                    <select name='language' 
+                            id='language'
+                            className='text-gray-500 text-[12px] w-[80px]'>
                         <option value="English">English</option>
                         <option value="French">French</option>
                     </select>
