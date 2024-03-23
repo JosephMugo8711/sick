@@ -25,7 +25,7 @@ const HeaderTop = () => {
                     <strong>FREE SHIPPING</strong>
                     THIS WEEK ORDER OVER - $55
                 </div>
-                <div>
+                <div className='flex gap-4'>
                     <select name='currency' id="currency">
                         <option value="USD $">USD $</option>
                         <option value="EUR €">EUR €</option>
